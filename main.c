@@ -85,11 +85,11 @@ static void main_thread_func(uint32_t data __maybe_unused)
 {
     /* Print message */
     printf("Hello, world!\n\r");
-//    PrintMemoryLayout();
+    PrintMemoryLayout();
 
     /* Loop forever and blink the LED */
     while(1) {
-        test_led_toggle(GPIO2);
+        test_led_toggle(GPIO3);
         atomTimerDelay(SYSTEM_TICKS_PER_SEC);
     }
 }
