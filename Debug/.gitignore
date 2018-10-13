@@ -1,0 +1,7 @@
+/kernel/
+/makefile
+/objects.mk
+/ports/
+/sources.mk
+/subdir_rules.mk
+/subdir_vars.mk
